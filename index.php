@@ -17,7 +17,7 @@
         <div>
             <div class="banner_content">
                 <div class="content_inner">
-                    <h1>Your healthcare staffing needs ends here.</h1>
+                    <h1>Your healthcare staffding needs ends here.</h1>
                     <span class="banner_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</span>
                 </div>
             </div>
