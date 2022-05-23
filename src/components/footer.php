@@ -10,7 +10,7 @@
     <div class="footer_layout">
         <div>
             <img class="header_logo" src="./assets/images/logo_color.png"/>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</p>
+            <p>At Ask4Care, your success is our priority. Our team goes above and beyond to provide an outstanding experience to our hiring partners. We have delivered great results working with nursing homes, hospitals, rehab facilities, supportive living facilities and other medical institutions. Quality is at the heart of what we do, and we promise to surpass your expectations everytime you work with us.</p>
         </div>
         <div>
             <h3>Useful links</h3>
@@ -43,5 +43,5 @@
             </div>
         </div>
     </div>
-    <div class="copyright">Copyright 2021-2022 by Ask for Care. All Rights Reserved.<div>
+    <div class="copyright">Copyright 2021-2022 by Ask4Care. All Rights Reserved.<div>
 </div>

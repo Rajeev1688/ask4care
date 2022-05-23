@@ -69,7 +69,7 @@
 
 <div class="locations">
     <h2 class="section_heading">Where are we<span class="section_heading_red">located<span></h2>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/>Lorem Ipsum has been the industry's standard dummy<p>
+    <p>We have spread our wings to 15 locations across the top locations of USA.<br/>Click on the locations below to take the first step towards a better career and landing your dream role.<p>
     <div class="locations_list">
         <div class="location_card">
             <span>Nevada</span>    

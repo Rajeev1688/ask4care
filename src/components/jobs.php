@@ -1,7 +1,7 @@
 <div>
     <div class="jobs_header">
         <h1 class="section_heading">Browse<span class="section_heading_red">jobs</span></h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/>Lorem Ipsum has been the industry's standard dummy</p>
+        <p>View verified job postings from the best medical institutions across USA.<br/>Choose from a plethora of locations, roles, experiences and a lot more.</p>
     </div>
     <div class="jobs_list">
         <div class="job_card">

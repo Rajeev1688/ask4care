@@ -17,8 +17,8 @@
         <div>
             <div class="banner_content">
                 <div class="content_inner">
-                    <h1>Your healthcare staffing needs ends here.</h1>
-                    <span class="banner_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</span>
+                    <h1>Your healthcare staffing needs end here.</h1>
+                    <span class="banner_para">Ask4Care is a leading medical staffing solutions provider in USA. Join us to get access to hundreds of jobs to land up with your dream role.</span>
                 </div>
             </div>
             <div class="banner_overlay"></div>
@@ -27,22 +27,22 @@
         <div>
             <div class="banner_content">
                 <div class="content_inner">
-                    <h1>Your healthcare staffing needs ends here.</h1>
-                    <span class="banner_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</span>
+                    <h1>The best jobs all across USA</h1>
+                    <span class="banner_para">Our team ensures you get a curated list of jobs across all roles and locations from some of the most reputed healthcare institutions across USA</span>
                 </div>
             </div>
             <div class="banner_overlay"></div>
-            <img class="banner_img" src="./assets/images/banner_1.png"/>
+            <img class="banner_img" src="./assets/images/banner_2.jpg"/>
         </div>
         <div>
             <div class="banner_content">
                 <div class="content_inner">
-                    <h1>Your healthcare staffing needs ends here.</h1>
-                    <span class="banner_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</span>
+                    <h1>A reliable staffing partner</h1>
+                    <span class="banner_para">We work with healthcare institutions across the country and help them hire the best talent effortlessly, delivering a seamless staffing experience</span>
                 </div>
             </div>
             <div class="banner_overlay"></div>
-            <img class="banner_img" src="./assets/images/banner_1.png"/>
+            <img class="banner_img" src="./assets/images/banner_3.jpg"/>
         </div>
     </div>
 
@@ -50,7 +50,7 @@
     <div class="why_us">
         <div class="why_us_left">
             <h1 class="section_heading">Why<span class="section_heading_red">us?</span></h1>
-            <p class="mt_30">Ask4Care is unlike any other medical staffing agency you have come across. Our values and quality of service set us apart from the crowd and leave job-seekers with a lasting experience.</p>
+            <p class="mt_30">Ask4Care is a leading medical staffing agency specializing in helping hospitals, nursing homes, and other medical institutions hire screen and verified talent with relevant industry experience. Our value proposition and quality of service set us apart from the crowd and leave both job-seekers and employers with a satisfactory experience.</p>
             <div class="why_list">
                 <div class="why_card">
                     <div class="why_list_top">
@@ -84,31 +84,31 @@
     <div class="services">
         <div class="services_header">
             <h1 class="section_heading">Our<span class="section_heading_red">services</span></h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/>Lorem Ipsum has been the industry's standard dummy</p>
+            <p>Healthcare services delivered by experienced medical personnel<br/>to cater to all your healthcare staffing needs.</p>
         </div>
         <div class="service_list">
             <div class="service_card mr_30">
                 <img src="./assets/images/service_1.png"/>
-                <h3>Home Healthcare Aide</h3>
-                <p>Home Healthcare Aides, provide in-home assistance with light house-keeping and activities of daily livin...</p>
+                <h3>Licensed Practical Nurse</h3>
+                <p>Find nurses experienced in providing primary care to patients and assistance to RNs and doctors. They are experienced in taking vitals, administering</p>
                 <button class="btn-outline">Know more</button>
             </div>
             <div class="service_card mr_30">
-                <img src="./assets/images/service_1.png"/>
-                <h3>Home Healthcare Aide</h3>
-                <p>Home Healthcare Aides, provide in-home assistance with light house-keeping and activities of daily livin...</p>
+                <img src="./assets/images/rn_service.jpg"/>
+                <h3>Registered Nurse</h3>
+                <p>RNs provide hands-on care to the patients, and are responsible for the daily tasks around patient care and administration. They cover both inpatients and</p>
                 <button class="btn-outline">Know more</button>
             </div>
             <div class="service_card mr_30">
-                <img src="./assets/images/service_1.png"/>
-                <h3>Home Healthcare Aide</h3>
-                <p>Home Healthcare Aides, provide in-home assistance with light house-keeping and activities of daily livin...</p>
+                <img src="./assets/images/dcw_service.jpg"/>
+                <h3>Direct Care Worker</h3>
+                <p>To avail dedicated medical assistance for the patients who require help in performing daily activities, Direct Care Workers are the perfect choice. They are</p>
                 <button class="btn-outline">Know more</button>
             </div>
             <div class="service_card">
-                <img src="./assets/images/service_1.png"/>
-                <h3>Home Healthcare Aide</h3>
-                <p>Home Healthcare Aides, provide in-home assistance with light house-keeping and activities of daily livin...</p>
+                <img src="./assets/images/pt_service.jpg"/>
+                <h3>Physical Therapist</h3>
+                <p>They specialize in treating human body disorders which may be related to a disability, an injury, or other health conditions. They are one of the allied health</p>
                 <button class="btn-outline">Know more</button>
             </div>
         </div>
@@ -135,6 +135,10 @@
     $(document).ready(function(){
         $('.slick_banner').slick({
             autoplay: true,
+            pauseOnFocus: false,
+            pauseOnHover: false,
+            pauseOnDotsHover: false,
+            speed: 3000,
             arrows: false,
             fade: true,
             dots: true
