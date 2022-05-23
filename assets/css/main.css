@@ -206,12 +206,15 @@ body {
 .content_inner h1 {
     margin-bottom: var(--common-padding);
     font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
     font-family: "Inter";
 }
 .banner_para {
     font-size: 19px;
     font-weight: 300;
-    line-height: 32px;
+    font-size: 22px;
+    line-height: 36px;
 }
 .why_us {
     padding: 110px var(--common-padding);
