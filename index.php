@@ -17,7 +17,7 @@
         <div>
             <div class="banner_content">
                 <div class="content_inner">
-                    <h1>Your healthcare staffding needs ends here.</h1>
+                    <h1>Your healthcare staffing needs ends here.</h1>
                     <span class="banner_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</span>
                 </div>
             </div>
@@ -50,7 +50,7 @@
     <div class="why_us">
         <div class="why_us_left">
             <h1 class="section_heading">Why<span class="section_heading_red">us?</span></h1>
-            <p class="mt_30">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+            <p class="mt_30">Ask4Care is unlike any other medical staffing agency you have come across. Our values and quality of service set us apart from the crowd and leave job-seekers with a lasting experience.</p>
             <div class="why_list">
                 <div class="why_card">
                     <div class="why_list_top">
