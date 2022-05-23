@@ -749,8 +749,12 @@ body {
         line-height: 34px;
         font-size: 28px;
     }
+    .banner_img {
+        height: 350px;
+    }
     .banner_para {
         font-size: 17px;
+        line-height: 24px;
     }
     .why_us {
         flex-wrap: wrap-reverse;
@@ -802,6 +806,12 @@ body {
     }
     .locations {
         padding: 40px 30px;
+    }
+    .locations_list_2 {
+        grid-template-columns: 1fr;
+    }
+    .locations_list_2 .location_card {
+        display: none;
     }
     .section_heading {
         display: block;
