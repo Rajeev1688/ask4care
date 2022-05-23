@@ -17,5 +17,5 @@ jobs:
         server: 45.113.122.119
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: "/home1/lotusn1j/public_html/LOTUSINDIATECH.COM/ask4care/"
+        local-dir: "/"
         #delete: "false"
