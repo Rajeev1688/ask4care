@@ -218,11 +218,14 @@ body {
     padding-top: 60px;
 }
 .why_us img {
-    height: 560px;
+    height: 600px;
     margin-right: 40px;
 }
 .why_us_left {
     width: 50%;
+}
+.why_us_left p {
+    font-size: 17px;
 }
 .why_card {
     border-radius: 10px;
