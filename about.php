@@ -33,7 +33,13 @@
     <div class="locations">
         <h2 class="section_heading">What makes us<span class="section_heading_red">different<span></h2>
         <p>Ask4Care is unlike any other medical staffing agency you have come across.<br/>Our values and service quality is what sets us apart from everybody else.<p>
-
+        <div class="">
+            <div class="diff">
+                <img src="./assets/images/diff_1.png"/>
+                <h3>sdfs</h3>
+                <p>adasddsf</p>
+            </div>
+        </div>
     </div>
 </body>
 

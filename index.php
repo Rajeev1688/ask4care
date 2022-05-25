@@ -114,6 +114,24 @@
         </div>
     </div>
 
+    <div class="services_new">
+        <div>
+            <h1 class="section_heading">Staffing services for all<br/>medical needs</h1>
+            <p class="services_subhead">Healthcare services delivered by experienced medical personnel to cater <br/>to all your healthcare staffing needs.</p>
+            <div class="service_new_list">
+                <div class="service_tab">Licensed Practical Nurse</div>
+                <div class="service_tab">Licensed Practical Nurse</div>
+                <div class="service_tab">Licensed Practical Nurse</div>
+                <div class="service_tab">Licensed Practical Nurse</div>
+            </div>
+            <p>Healthcare services delivered by experienced medical personnel to cater to all your healthcare staffing needs. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <div class="header_link contact_btn">Get in touch<i class="fa-solid fa-arrow-right-long"></i></div>
+        </div>
+        <div>
+            <img src="./assets/images/services_new_img.png"/>
+        </div>
+    </div>
+
     <!-- Locations -->
     <?php include("./src/components/locations.php");?>
 
