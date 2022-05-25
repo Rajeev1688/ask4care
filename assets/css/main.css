@@ -29,6 +29,28 @@ body {
     text-decoration: underline;
     margin-left: 8px;
 }
+.page_banner {
+    position: relative;
+}
+.page_banner img {
+    width: 100%;
+}
+.page_banner h1 {
+    color: white;
+}
+.page_banner p {
+    color: #ffffffde;
+    font-size: 18px;
+    margin-top: 24px;
+    width: 60%;
+    line-height: 31px;
+}
+.page_banner_content {
+    text-align: left;
+    position: absolute;
+    left: 50px;
+    top: 16%;
+}
 .mt_30 {
     margin-top: 30px
 }
@@ -445,9 +467,6 @@ body {
     width: 300px;
     margin-top: 20px;
     margin-right: 20px;
-    /* background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #fff;
-    -webkit-appearance: none;
-    background-position-x: 266px; */
 }
 .location_search select:focus-visible {
     border: none;
@@ -462,58 +481,6 @@ body {
     display: block;
     margin-bottom: 10px;
 }
-/* .location_card {
-    box-shadow: 0px 0px 19px 5px rgb(0 0 0 / 10%);
-    border-radius: 10px;
-    transition: all 0.3s;
-    cursor: pointer;
-    text-align: left;
-    position: relative;
-}
-.location_img, .location_img_hover {
-    height: 190px;
-    transition: all 0.3s;
-    width: 100%;
-    object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-.location_img_hover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 2;
-}
-.location_card:hover {
-    transform: translateY(-20px);
-    box-shadow: 0px 0px 19px 5px rgb(0 0 0 / 20%);
-    transition: all 0.3s;
-}
-.location_card:hover .location_img_hover {
-    height: 100%;
-    border-radius: 10px;
-}
-.location_card:hover .location_name {
-    color: white;
-    transition: all 0.3s;
-}
-.locations_list {
-    padding: 10px 40px;
-    margin-top: 30px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    column-gap: 40px;
-}
-.location_name {
-    padding: 16px;
-    font-weight: 400;
-    margin: 0px;
-    padding-top: 10px;
-    transition: all 0.3s;
-    font-size: 17px;
-    z-index: 99;
-    position: relative;
-} */
 
 /* Jobs */
 .jobs_header {
@@ -728,6 +695,28 @@ body {
     outline: none;
     border-bottom: 1px solid white;
     transition: all 0.3s;
+}
+
+/* About Us */
+.about_content {
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: 1fr 1.4fr;
+    padding-right: 50px;
+    column-gap: 130px;
+    align-items: center;
+}
+.about_content img {
+    width: 100%;
+}
+.about_content p {
+    font-size: 17px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.about_content .section_heading_red {
+    margin-left: 0px;
+    margin-right: 10px;
 }
 
 /* Responsive */

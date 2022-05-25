@@ -14,7 +14,7 @@
 
         <div class="header_top">
             <i class="fa-solid fa-bars sidebar_menu"></i>
-            <img class="header_logo" src="./assets/images/logo_color.png"/>
+            <a href="./"><img class="header_logo" src="./assets/images/logo_color.png"/></a>
             <div class="header_right">
                 <div class="header_action">
                     <img class="action_logo" src="./assets/images/brochure_logo.png"/>
@@ -35,9 +35,9 @@
 
         <div class="header_bottom">
             <div class="link_container">
-                <a class="header_link">Home</a>
+                <a class="header_link" href="./">Home</a>
                 <a class="header_link">Services</a>
-                <a class="header_link">About Us</a>
+                <a class="header_link" href="./about.php">About Us</a>
                 <a class="header_link">Locations</a>
                 <a class="header_link">Careers</a>
                 <a class="header_link">Contact Us</a>
