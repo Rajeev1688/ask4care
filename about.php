@@ -7,7 +7,7 @@
     
 </head>
 
-<body>
+<body class="about_page">
     <div class="page_banner">
         <div class="page_banner_content">
             <h1 class="section_heading">About Us</h1>
@@ -33,14 +33,28 @@
     <div class="locations">
         <h2 class="section_heading">What makes us<span class="section_heading_red">different<span></h2>
         <p>Ask4Care is unlike any other medical staffing agency you have come across.<br/>Our values and service quality is what sets us apart from everybody else.<p>
-        <div class="">
+        <div class="diff_list">
             <div class="diff">
-                <img src="./assets/images/diff_1.png"/>
-                <h3>sdfs</h3>
-                <p>adasddsf</p>
+                <img src="./assets/images/different_1.png"/>
+                <h3>Dedicated support</h3>
+                <p>We assign hiring managers for every requireent of yours. He/she will guide you in your hiring journey and offer support 24x7.</p>
+            </div>
+            <div class="diff">
+                <img src="./assets/images/different_2.png"/>
+                <h3>The best of both worlds</h3>
+                <p>Employers get to browse from a plethora of candidates and job-seekers get access to the best medical job openings across the top medical instututions in USA.</p>
+            </div>
+            <div class="diff">
+                <img src="./assets/images/different_3.png"/>
+                <h3>Delivering excellence, everytime</h3>
+                <p>We believe that your success is out priority. Our clients and candidates speak highly of our services and keep coming back to us for an unmatched experience.</p>
             </div>
         </div>
     </div>
+
+    <!-- Footer -->
+    <?php include("./src/components/footer.php");?>
+
 </body>
 
 </html>

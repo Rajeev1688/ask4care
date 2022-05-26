@@ -787,6 +787,27 @@ body {
     margin-left: 0px;
     margin-right: 10px;
 }
+.diff_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 140px;
+    margin-top: 50px;
+}
+.diff img {
+    height: 310px;
+}
+.diff h3 {
+    font-weight: 600;
+    font-family: "Inter";
+    font-size: 19px;
+    color: var(--blue);
+}
+.diff p {
+    margin-top: -10px;
+}
+.about_page .locations {
+    padding-bottom: 10px;
+}
 
 /* Responsive */
 @media (max-width: 500px) {
