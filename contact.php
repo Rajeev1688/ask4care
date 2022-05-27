@@ -31,7 +31,7 @@
             <input class="white_input" type="email" placeholder="Enter your email..."/>
             <textarea rows="4" class="white_input" placeholder="Enter your name..."></textarea>
             <div>
-                <input class="btn-outline btn-white" type="submit" value="Search">
+                <input class="btn-outline btn-white" type="submit" value="Submit">
             </div>
         </div>
     </div>
