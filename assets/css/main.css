@@ -24,6 +24,14 @@ body {
     font-family: 'Inter', sans-serif;
     align-self: center;
 }
+.white_input {
+    background: transparent;
+    color: white;
+    border-style: none;
+    border-bottom: 1px solid #ffffff85;
+    transition: all 0.3s;
+    padding-bottom: 8px; 
+}
 .section_heading_red {
     color: var(--red);
     text-decoration: underline;
@@ -80,6 +88,14 @@ body {
 .btn-blue:hover {
     color: white;
     background: var(--blue);
+}
+.btn-white {
+    color: white;
+    border: 1px solid white;
+}
+.btn-white:hover {
+    color: var(--blue);
+    background: white;
 }
 .btn-white {
     color: white;
@@ -741,15 +757,9 @@ body {
     font-weight: 500;
     margin: 0px;
 }
-.subscription input {
-    background: transparent;
-    color: white;
-    border-style: none;
-    border-bottom: 1px solid #ffffff85;
-    margin-right: 30px;
-    transition: all 0.3s;
+.subscription .white_input {
     width: 310px;
-    padding-bottom: 8px;
+    margin-right: 30px;
 }
 .subscription ::-webkit-input-placeholder {
     color: white;
@@ -807,6 +817,82 @@ body {
 }
 .about_page .locations {
     padding-bottom: 10px;
+}
+
+/* Contact Us */
+.contact_content {
+    padding: 20px 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    margin-top: 50px;
+}
+.contact_content h2 {
+    text-transform: uppercase;
+}
+.contact_content i {
+    margin-right: 10px;
+    margin-top: 5px;
+    color: #3a44ff;
+}
+.contact_list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.contact_list div {
+    display: flex;
+}
+.contact_form {
+    background: #545dff;
+    padding: 38px 34px;
+    border-radius: 6px;
+    color: white;
+    box-shadow: 0px 4px 40px rgb(0 0 0 / 30%);
+    width:74%;
+}
+.contact_form h2 {
+    margin: 0px;
+}
+.contact_form p {
+    margin: 0px;
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+.contact_form .white_input {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+}
+.contact_form ::-webkit-input-placeholder {
+    color: white;
+    opacity: 0.7;
+}
+.contact_form :-ms-input-placeholder {
+    color: white;
+    opacity: 0.7;
+}
+.contact_form ::placeholder {
+    color: white;
+    opacity: 0.7;
+}
+.contact_form :focus-visible {
+    outline: none;
+    border-bottom: 1px solid white;
+    transition: all 0.3s;
+}
+.contact_form .btn-white {
+    width: 40%;
+}
+.map iframe {
+    width: 100%;
+    outline: none;
+    border: none;
+    height: 400px;
+    margin-top: -140px;
+}
+.about_page .subscription {
+    margin-top: -6px;
 }
 
 /* Responsive */
@@ -962,7 +1048,7 @@ body {
         display: block;
         text-align: center;
     }
-    .subscription input {
+    .subscription .white_input {
         margin: 20px 0px;
     }
     .hide_desktop {

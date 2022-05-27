@@ -2,7 +2,7 @@
     <div class="hide_desktop"><h4>Subscribe to our<br/>newsletter</h4></div>
     <div class="hide_mobile">Subscribe to our newsletter</div>
     <div>
-        <input type="email" placeholder="Enter your email address..."/>
+        <input class="white_input" type="email" placeholder="Enter your email address..."/>
         <button class="btn-outline btn-white">Subscribe</button>
     </div>
 </div>
