@@ -136,6 +136,10 @@ body {
 .hide_mobile {
     display: none;
 }
+.share_component h2 {
+    font-size: 19px;
+    font-weight: 500;
+}
 .share_icons {
     display: flex;
     column-gap: 12px;
@@ -1093,11 +1097,17 @@ body {
 .blog_details_section h2 {
     margin-top: 8px;
 }
+.blog_details_section p {
+    margin-bottom: 40px;
+}
 .blog_details_section span {
     color: var(--red);
 }
-.blog_details_section span i {
+.blog_details_section span i, .blog_main_content span i, .blog_big span i, .blog_small span i {
     margin-right: 8px;
+}
+.blog_details_page .blog_top_row .blog_section_head {
+    margin-top: 0px;
 }
 
 /* Responsive */
