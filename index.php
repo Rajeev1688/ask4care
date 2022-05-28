@@ -139,7 +139,7 @@
     <?php include("./src/components/jobs.php");?>
 
     <!-- Recent Blogs -->
-    <?php include("./src/components/recent_blogs.php");?>
+    <?php include("./src/components/blogs/recent_blogs.php");?>
 
     <!-- Footer -->
     <?php include("./src/components/footer.php");?>
