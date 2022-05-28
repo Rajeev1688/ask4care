@@ -1,13 +1,12 @@
-<?php include("./src/components/header.php");?>
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    
+    <?php include("./src/components/common_imports.php");?> 
 </head>
 
 <body class="about_page">
+    <?php include("./src/components/header.php");?>
     <div class="page_banner">
         <div class="page_banner_content">
             <h1 class="section_heading">About Us</h1>
