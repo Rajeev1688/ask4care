@@ -137,7 +137,7 @@
     <?php include("./src/components/locations.php");?>
 
     <!-- Jobs -->
-    <?php include("./src/components/jobs.php");?>
+    <?php include("./src/components/jobs/jobs_section.php");?>
 
     <!-- Recent Blogs -->
     <?php include("./src/components/blogs/recent_blogs.php");?>

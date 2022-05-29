@@ -26,12 +26,12 @@
             <!-- <a class="header_link">Services</a> -->
             <a class="header_link" href="./about.php">About Us</a>
             <a class="header_link">Locations</a>
-            <a class="header_link">Careers</a>
+            <a class="header_link" href="./jobs.php">Jobs</a>
             <a class="header_link" href="./blogs.php">Blogs</a>
             <a class="header_link" href="./contact.php">Contact Us</a>
         </div>
         <div class="link_container">
-            <a class="header_link">Find jobs</a>
+            <!-- <a class="header_link">Find jobs</a> -->
             <a class="header_link">Upload resume</a>
         </div>
     </div>

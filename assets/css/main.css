@@ -15,6 +15,77 @@ body {
     margin: 0px;
 }
 
+/* Header */
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px var(--common-padding);
+}
+.header_top .sidebar_menu {
+    display: none;
+}
+.header_logo {
+    height: 38px;
+}
+.header_action {
+    display: flex;
+    column-gap: 10px;
+}
+.header_action img {
+    height: 40px;
+}
+.header_action span .top_text {
+    font-size: 13px;
+}
+.header_action span .bottom_text {
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.header_right {
+    display: flex;
+    column-gap: 30px;
+}
+.header_bottom {
+    padding: 8px var(--common-padding);
+    background-color: var(--blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+.header_link {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    transition: all 0.3s;
+    position: relative;
+    padding: 2px 0px;
+}
+.header_link::after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #ddd;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.header_link:hover {
+    color: white;
+}
+.header_link:hover::after {
+    width: 100%;
+    left: 0;
+}
+.link_container {
+    display: flex;
+    column-gap: 20px;
+}
+
 /* Common */
 .section_heading {
     font-weight: 700;
@@ -74,12 +145,17 @@ body {
     border-radius: 6px;
     background: transparent;
     padding: 8px 14px;
+    font-size: 14px;
+    line-height: initial;
     transition: all 0.3s;
 }
 .btn-outline:hover {
     color: white;
     background: var(--red);
     transition: all 0.3s;
+}
+.btn-outline::after {
+    display: none;
 }
 .btn-blue {
     color: var(--blue);
@@ -163,74 +239,6 @@ body {
 .share_icons .whatsapp {
     padding: 12px 17px;
     background: #25D366;
-}
-
-/* Header */
-.header_top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px var(--common-padding);
-}
-.header_top .sidebar_menu {
-    display: none;
-}
-.header_logo {
-    height: 38px;
-}
-.header_action {
-    display: flex;
-    column-gap: 10px;
-}
-.header_action img {
-    height: 40px;
-}
-.header_action span .top_text {
-    font-size: 13px;
-}
-.header_action span .bottom_text {
-    font-size: 13px;
-    font-weight: 700;
-    cursor: pointer;
-}
-.header_right {
-    display: flex;
-    column-gap: 30px;
-}
-.header_bottom {
-    padding: 8px var(--common-padding);
-    background-color: var(--blue);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}  
-.header_link {
-    text-decoration: none;
-    cursor: pointer;
-    color: white;
-    transition: all 0.3s;
-    position: relative;
-    padding: 2px 0px;
-}
-.header_link::after {
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 2px;
-    left: 50%;
-    position: absolute;
-    background: #ddd;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-}
-.header_link:hover::after {
-    width: 100%;
-    left: 0;
-}
-.link_container {
-    display: flex;
-    column-gap: 20px;
 }
 
 /* Home */
@@ -924,7 +932,7 @@ body {
 }
 
 /* Blog page */
-.blog_page .header_link::after {
+.blog_page .blog_top_row .header_link::after, .blog_page .blog_3_col .header_link::after {
     display: none;
 }
 .blog_main {
@@ -1108,6 +1116,43 @@ body {
 }
 .blog_details_page .blog_top_row .blog_section_head {
     margin-top: 0px;
+}
+
+/* Jobs Page */
+.job_promo {
+    padding: 40px 50px;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    align-items: center;
+    column-gap: 40px;
+}
+.job_promo img {
+    width: 100%;
+}
+.job_promo .section_heading {
+    line-height: 42px;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.job_listing_section {
+    padding: 40px 50px;
+}
+.job_listing_section .section_heading {
+    display: block;
+    margin-bottom: 26px;
+}
+.jobs_hor_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+}
+.jobs_hor_list .job_card {
+    margin: 14px;
+}
+.pagination_comp {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 /* Responsive */
