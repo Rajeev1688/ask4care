@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>A4H</title>
+    <title>Ask4Care</title>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
     <?php include("./src/components/common_imports.php");?>
@@ -134,10 +134,10 @@
     </div>
 
     <!-- Locations -->
-    <?php include("./src/components/locations.php");?>
+    <?php include("./src/components/locations/locations_section.php");?>
 
     <!-- Jobs -->
-    <?php include("./src/components/jobs/jobs_section.php");?>
+    <?php include("./src/components/jobs/recent_jobs_section.php");?>
 
     <!-- Recent Blogs -->
     <?php include("./src/components/blogs/recent_blogs.php");?>

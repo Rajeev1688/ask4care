@@ -1,5 +1,5 @@
 <div>
-    <a class="header_link blog_small" href="./blog-details.php">
+    <a class="link_no_dec blog_small" href="./blog-details.php">
         <div style="overflow: hidden; border-radius: 12px"><img src="./assets/images/blog_1.png"/></div>
         <div class="blog_main_content">
             <h2>Lorem Ipsum is simply dummy text</h2>

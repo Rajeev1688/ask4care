@@ -15,23 +15,21 @@
             <div>
                 <h3>Useful links</h3>
                 <div class="footer_list">
-                    <a>Link 1</a>
-                    <a>Link 1</a>
-                    <a>Link 1</a>
-                    <a>Link 1</a>
-                    <a>Link 1</a>
-                    <a>Link 1</a>
+                    <a class="footer_link" href="./about.php">About us</a>
+                    <a class="footer_link" href="./locations.php">Locations</a>
+                    <a class="footer_link" href="./jobs.php">Jobs</a>
+                    <a class="footer_link" href="./blogs.php">Blogs</a>
+                    <a class="footer_link" href="./contact.php">Contact us</a>
                 </div>
             </div>
             <div class="hide_desktop">
-                <h3>Support</h3>
+                <h3>Top Locations</h3>
                 <div class="footer_list">
-                    <a>sdfsdfs</a>
-                    <a>sdfsdfs</a>
-                    <a>sdfsdfs</a>
-                    <a>sdfsdfs</a>
-                    <a>sdfsdfs</a>
-                    <a>sdfsdfs</a>
+                    <a class="footer_link" href="./location-details.php">Nevada</a>
+                    <a class="footer_link" href="./location-details.php">New York</a>
+                    <a class="footer_link" href="./location-details.php">New Jersey</a>
+                    <a class="footer_link" href="./location-details.php">Nevada</a>
+                    <a class="footer_link" href="./location-details.php">Nevada</a>
                 </div>
             </div>
             <div>

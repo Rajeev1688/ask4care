@@ -87,6 +87,23 @@ body {
 }
 
 /* Common */
+h1 {
+    font-weight: 700 !important;
+    color: var(--black_2) !important;
+    font-family: "Inter" !important;
+}
+h2 {
+    color: var(--black_2) !important;
+}
+.link_no_dec {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+.header_link:hover {
+    color: white;
+    text-decoration: none;
+}
 .section_heading {
     font-weight: 700;
     font-size: 36px;
@@ -115,7 +132,7 @@ body {
     width: 100%;
 }
 .page_banner h1 {
-    color: white;
+    color: white !important;
 }
 .page_banner p {
     color: #ffffffde;
@@ -220,7 +237,7 @@ body {
     display: flex;
     column-gap: 12px;
 }
-.share_icons .header_link {
+.share_icons .link_no_dec {
     border-radius: 100px;
     color: white !important;
 }
@@ -281,14 +298,13 @@ body {
     text-align: center;
     width: 50%;
     font-size: 17px;
-    color: white;
+    color: white !important;
 }
 .content_inner h1 {
     margin-bottom: var(--common-padding);
-    font-weight: 700;
+    color: white !important;
     font-size: 42px;
     line-height: 50px;
-    font-family: "Inter";
 }
 .banner_para {
     font-size: 19px;
@@ -407,6 +423,9 @@ body {
 }
 .services_new .header_link::after {
     background-color: var(--blue);
+}
+.services_new .header_link:hover {
+    color: var(--blue);
 }
 
 .services {
@@ -599,7 +618,6 @@ body {
     border: none;
     outline: none;
 }
-
 .locations {
     padding: 80px 60px;
     text-align: center;
@@ -607,6 +625,34 @@ body {
 .locations .section_heading {
     display: block;
     margin-bottom: 10px;
+}
+.locations_page_list {
+    padding: 40px 50px;
+    row-gap: 30px;
+    margin-bottom: 60px;
+}
+
+/* Location Details */
+.location_details_banner img {
+    height: 340px;
+    object-fit: cover;
+}
+.location_details_banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location_details_banner .page_banner_content {
+    text-align: center;
+    z-index: 2;
+    left: auto;
+    top: auto;
+}
+.location_details_banner .section_heading {
+    display: block;
+}
+.location_details_banner .banner_overlay {
+    background: #00000085;
 }
 
 /* Jobs */
@@ -659,7 +705,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 12px;
+    margin-top: 16px;
 }
 .jobs_list .slick-dots{
     bottom: -10px;
@@ -811,6 +857,17 @@ body {
     transition: all 0.3s;
 }
 
+.footer_link {
+    color: inherit;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+.footer_link:hover {
+    color: #3a44ff;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
 /* About Us */
 .about_content {
     display: grid;
@@ -888,6 +945,7 @@ body {
 }
 .contact_form h2 {
     margin: 0px;
+    color: white !important;
 }
 .contact_form p {
     margin: 0px;
@@ -931,9 +989,6 @@ body {
 }
 
 /* Blog page */
-.blog_page .blog_top_row .header_link::after, .blog_page .blog_3_col .header_link::after {
-    display: none;
-}
 .blog_main {
     position: relative;
     border-radius: 12px;
@@ -1071,7 +1126,7 @@ body {
 .blog_3_col .blog_small h2 {
     margin-top: 0px;
 }
-.blog_page .blog_top_row .header_link, .blog_page .blog_3_col .header_link {
+.blog_page .blog_top_row .link_no_dec, .blog_page .blog_3_col .link_no_dec {
     color: inherit;
 }
 .blog_3_col .blog_minimal_card h2 {
@@ -1177,6 +1232,13 @@ body {
     padding-top: 20px;
     margin-top: 20px;
     border-top: 1px solid lightgray;
+}
+.job_details_left h1 {
+    font-size: 24px;
+}
+.job_details_right h1 {
+    font-size: 20px;
+    margin-bottom: 16px;
 }
 
 /* Responsive */

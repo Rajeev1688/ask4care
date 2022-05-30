@@ -24,11 +24,11 @@
         <div class="link_container">
             <a class="header_link" href="./">Home</a>
             <!-- <a class="header_link">Services</a> -->
-            <a class="header_link" href="./about.php">About Us</a>
-            <a class="header_link">Locations</a>
+            <a class="header_link" href="./about.php">About us</a>
+            <a class="header_link" href="./locations.php">Locations</a>
             <a class="header_link" href="./jobs.php">Jobs</a>
             <a class="header_link" href="./blogs.php">Blogs</a>
-            <a class="header_link" href="./contact.php">Contact Us</a>
+            <a class="header_link" href="./contact.php">Contact us</a>
         </div>
         <div class="link_container">
             <!-- <a class="header_link">Find jobs</a> -->

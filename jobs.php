@@ -24,7 +24,7 @@
                 <br/><br/>
                 Need help with your job search? We're here for you!
             </p>
-            <a class="header_link btn-outline" href="./contact.php">Contact Us</a>
+            <a class="link_no_dec btn-outline" href="./contact.php">Contact Us</a>
         </div>
     </div>
 
