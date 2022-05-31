@@ -51,28 +51,28 @@
     <div class="why_us">
         <div class="why_us_left">
             <h1 class="section_heading">Why<span class="section_heading_red">us?</span></h1>
-            <p class="mt_30">Ask4Care is a leading medical staffing agency specializing in helping hospitals, nursing homes, and other medical institutions hire screen and verified talent with relevant industry experience. Our value proposition and quality of service set us apart from the crowd and leave both job-seekers and employers with a satisfactory experience.</p>
+            <p class="mt_30">Ask4Care is a leading agency in medical staffing and homecare services specializing in helping hospitals, nursing homes, and other medical institutions hire screen and verified talent with relevant industry experience. Our value proposition and quality of service set us apart from the crowd and leave both job-seekers and employers with a satisfactory experience.</p>
             <div class="why_list">
                 <div class="why_card">
                     <div class="why_list_top">
                         <i class="fa-solid fa-hand-holding-heart" style="color: #3E4E9B"></i>
                         <span>Caring with a smile</span>
                     </div>
-                    <p>It’s not what we do as a Support Staff Solutions Provider, but how we do it. All of our elderly caregiving services are delivered with a smile.</p>
+                    <p>Join a family of institutions who trust Ask4Care to be their only medical staffing and homecare solutions provider.</p>
                 </div>
                 <div class="why_card">
                     <div class="why_list_top">
                         <i class="fa-solid fa-graduation-cap" style="color: #FFD600"></i>
                         <span>Qualified staff</span>
                     </div>
-                    <p>Whether you just need someone to take you for a walk or to provide attentive complex caring – we as a Support Staff Solutions.</p>
+                    <p>Our team helps you to screen and hire the right set of candidates with relevant industry experience.</p>
                 </div>
                 <div class="why_card">
                     <div class="why_list_top">  
                         <i class="fa-solid fa-comment-dots" style="color: #00EDA6"></i>
-                        <span>Attentive listener</span>
+                        <span>Passionate about care</span>
                     </div>
-                    <p>How do you like things done? Where would you like to go? Listening to your needs, and having conversations with you, help us make sure.</p>
+                    <p>We believe in enabling others to have the best possible talent to provide an exceptional level of care to their patients.</p>
                 </div>
             </div>
         </div>
@@ -88,19 +88,19 @@
             <p>Healthcare services delivered by experienced medical personnel<br/>to cater to all your healthcare staffing needs.</p>
         </div>
         <div class="service_list">
-            <div class="service_card mr_30">
+            <div class="service_card">
                 <img src="./assets/images/service_1.png"/>
                 <h3>Licensed Practical Nurse</h3>
                 <p>Find nurses experienced in providing primary care to patients and assistance to RNs and doctors. They are experienced in taking vitals, administering</p>
                 <button class="btn-outline">Know more</button>
             </div>
-            <div class="service_card mr_30">
+            <div class="service_card">
                 <img src="./assets/images/rn_service.jpg"/>
                 <h3>Registered Nurse</h3>
                 <p>RNs provide hands-on care to the patients, and are responsible for the daily tasks around patient care and administration. They cover both inpatients and</p>
                 <button class="btn-outline">Know more</button>
             </div>
-            <div class="service_card mr_30">
+            <div class="service_card">
                 <img src="./assets/images/dcw_service.jpg"/>
                 <h3>Direct Care Worker</h3>
                 <p>To avail dedicated medical assistance for the patients who require help in performing daily activities, Direct Care Workers are the perfect choice. They are</p>
@@ -112,21 +112,41 @@
                 <p>They specialize in treating human body disorders which may be related to a disability, an injury, or other health conditions. They are one of the allied health</p>
                 <button class="btn-outline">Know more</button>
             </div>
+            <div class="service_card">
+                <img src="./assets/images/pt_service.jpg"/>
+                <h3>Occupational Therapist</h3>
+                <p>They specialize in treating human body disorders which may be related to a disability, an injury, or other health conditions. They are one of the allied health</p>
+                <button class="btn-outline">Know more</button>
+            </div>
+            <div class="service_card">
+                <img src="./assets/images/pt_service.jpg"/>
+                <h3>Speech Therapist</h3>
+                <p>They specialize in treating human body disorders which may be related to a disability, an injury, or other health conditions. They are one of the allied health</p>
+                <button class="btn-outline">Know more</button>
+            </div>
+            <div class="service_card">
+                <img src="./assets/images/pt_service.jpg"/>
+                <h3>CNA</h3>
+                <p>They specialize in treating human body disorders which may be related to a disability, an injury, or other health conditions. They are one of the allied health</p>
+                <button class="btn-outline">Know more</button>
+            </div>
         </div>
     </div>
 
     <div class="services_new">
         <div>
             <h1 class="section_heading">Staffing services for all<br/>medical needs</h1>
-            <p class="services_subhead">Healthcare services delivered by experienced medical personnel to cater <br/>to all your healthcare staffing needs.</p>
+            <p class="services_subhead">Healthcare services delivered by experienced medical personnel to cater to <br/>all yourhealthcare staffing and homecare service needs.</p>
             <div class="service_new_list">
-                <div class="service_tab">Licensed Practical Nurse</div>
-                <div class="service_tab">Licensed Practical Nurse</div>
-                <div class="service_tab">Licensed Practical Nurse</div>
-                <div class="service_tab">Licensed Practical Nurse</div>
+                <a class="link_no_dec" href="./service-details.php"><div class="service_tab">Licensed Practical Nurse</div></a>
+                <a class="link_no_dec" href="./service-details.php"><div class="service_tab">Registered Nurse</div></a>
+                <a class="link_no_dec" href="./service-details.php"><div class="service_tab">Direct Care Worker</div></a>
+                <a class="link_no_dec" href="./service-details.php"><div class="service_tab">Speech Therapist</div></a>
+                <a class="link_no_dec" href="./service-details.php"><div class="service_tab">Occupational Therapist</div></a>
+                <a class="link_no_dec" href="./service-details.php"><div class="service_tab">CNA</div></a>
             </div>
             <p>Healthcare services delivered by experienced medical personnel to cater to all your healthcare staffing needs. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-            <div class="header_link contact_btn">Get in touch<i class="fa-solid fa-arrow-right-long"></i></div>
+            <a class="header_link contact_btn" href="./contact.php">Get in touch<i class="fa-solid fa-arrow-right-long"></i></a>
         </div>
         <div>
             <img src="./assets/images/services_new_img.png"/>
@@ -169,6 +189,7 @@
         $('.service_list').slick({
             arrows: false,
             slidesToShow: 4,
+            dots: true,
             slidesToScroll: 1,
             responsive: [
                 {

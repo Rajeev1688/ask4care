@@ -366,7 +366,7 @@ h2 {
     grid-template-columns: 1.21fr 1fr;
 }
 .services_new h1 {
-    line-height: 40px;
+    line-height: 44px;
     color: var(--blue);
 }
 .services_new .services_subhead {
@@ -375,8 +375,8 @@ h2 {
     line-height: 30px;
 }
 .service_new_list {
-    display: grid;
-    grid-template-columns: auto 1fr;
+    display: flex;
+    flex-wrap: wrap;
     column-gap: 20px;
     row-gap: 20px;
     margin-top: 34px;
@@ -402,6 +402,7 @@ h2 {
 }
 .services_new p {
     margin-top: 20px;
+    margin-bottom: 40px;
 }
 .services_new img {
     width: 80%;
@@ -444,8 +445,12 @@ h2 {
 .services_header p {
     text-align: right;
 }
+.service_list .slick-dots {
+    bottom: -54px;
+}
 .service_card {
     text-align: left;
+    margin-right: 30px;
 }
 .service_card img {
     height: 180px;
@@ -754,6 +759,9 @@ h2 {
     grid-template-columns: 0.5fr 1fr;
     column-gap: 20px;
 }
+.blog_small .date_component {
+    font-size: 14px;
+}
 .blog_small img {
     width: 100%;
     height: 100%;
@@ -989,6 +997,10 @@ h2 {
 }
 
 /* Blog page */
+.blog_img_hover {
+    overflow: hidden;
+    border-radius: 12px;
+}
 .blog_main {
     position: relative;
     border-radius: 12px;
@@ -1003,10 +1015,13 @@ h2 {
     z-index: 3;
     width: max-content;
 }
+.blog_main .blog_main_content h2 {
+    color: white !important;
+}
 .blog_main .read_more_btn {
     color: white;
 }
-.blog_main_content .date_component {
+.blog_main .blog_main_content .date_component {
     color: white;
     font-size: 13px;
 }
@@ -1052,7 +1067,7 @@ h2 {
     row-gap: 20px;
 }
 .blog_right_list h2 {
-    margin-top: 4px;
+    margin-top: 0px;
 }
 .blog_right_list .blog_main h2 {
     font-size: 20px;
@@ -1153,6 +1168,9 @@ h2 {
 }
 
 /* Blog Details */
+.other_blog_list .date_component {
+    display: none;
+}
 .blog_details_section img {
     width: 100%;
     object-fit: cover;
@@ -1239,6 +1257,18 @@ h2 {
 .job_details_right h1 {
     font-size: 20px;
     margin-bottom: 16px;
+}
+
+/* Service Details */
+.services_card .job_card_header {
+    align-items: center;
+}
+.services_card p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.services_card .button_row {
+    margin-top: 0px;
 }
 
 /* Responsive */
@@ -1376,8 +1406,6 @@ h2 {
     }
     .blog_small {
         grid-template-columns: 1fr;
-    }
-    .blog_small {
         padding-top: 14px;
         border-top: 1px solid #919191;
     }
