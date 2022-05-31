@@ -18,12 +18,9 @@
         <img src="./assets/images/about_Left_img.png"/>
         <div>
             <h2 class="section_heading"><span class="section_heading_red">Know us</span> better</h2>
-            <p>At ASK 4 Care USA your satisfaction is a measure of our success. We strive to be compliant, customer-oriented, and compassionate. Our staff are committed to serving the individuals and organizations they care for every day.  We are thrilled to work with assisted and supportive living facilities, nursing homes, rehab facilities, doctors offices, hospitals, hospice services and medical agencies of all types and work as your partner to ensure your satisfaction and success.  
-            At ASK 4 Care USA, we believe that quality is the heart of our business by providing staff to care for those in a facility; ASK 4 Care USA is committed to recruiting, hiring, and training experienced healthcare professionals.
-            At Ask 4 care USA taking care of your needs is our priority!
+            <p>At ASK 4 Care USA your satisfaction is a measure of our success. Our founder brings 23 years of extensive experience in the healthcare industry and understands the need to provide quality care with a personal touch. We strive to be compliant, customer-oriented, and compassionate. We strive to deliver an outstanding experience to assisted and supportive living facilities, nursing homes, rehab facilities, doctors offices, hospitals and medical agencies of all types.
             </br></br>
-            At ASK 4 Care USA, we believe that quality is the heart of our business by providing staff to care for those in a facility; ASK 4 Care USA is committed to recruiting, hiring, and training experienced healthcare professionals.
-            At Ask 4 care USA taking care of your needs is our priority!
+            Our team comprises of experienced individuals having years of experience in catering to a diverse audience for their staffing and job-search needs. Go ahead and drop us a line; we promise you will not be disappointed!
             </p>
             <a class="link_no_dec" href="./contact.php"><button class="btn-outline">Get in touch</button></a>
         </div>
