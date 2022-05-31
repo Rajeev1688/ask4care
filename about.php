@@ -25,7 +25,7 @@
             At ASK 4 Care USA, we believe that quality is the heart of our business by providing staff to care for those in a facility; ASK 4 Care USA is committed to recruiting, hiring, and training experienced healthcare professionals.
             At Ask 4 care USA taking care of your needs is our priority!
             </p>
-            <button class="btn-outline">Get in touch</button>
+            <a class="link_no_dec" href="./contact.php"><button class="btn-outline">Get in touch</button></a>
         </div>
     </div>
     <div>
