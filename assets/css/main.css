@@ -1293,6 +1293,54 @@ h2 {
     :root {
         --common-padding: 20px;
     }
+    .sidebar {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        z-index: 99;
+        left: 0;
+        width: 100%;
+        visibility: hidden;
+        transition: all 0.5s ease;
+    }
+    .show_sidebar {
+        visibility: visible;
+        transition: all 0.5s ease;
+    }
+    .show_sidebar .overlay_sidebar {
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+    .show_sidebar .sidebar_content {
+        transform: translateX(0px);
+        transition: all 0.7s ease;
+    }
+    .overlay_sidebar {
+        width: 100%;
+        opacity: 0;
+        height: 100vh;
+        transition: all 0.5s ease;
+        background: #000000a1;
+    }
+    .sidebar_content {
+        background-color: white;
+        height: 100vh;
+        position: fixed;
+        padding: 40px;
+        top: 0px;
+        width: 48%;
+        transform: translateX(-100%);
+        transition: all 0.7s ease;
+    }
+    .sidebar_content .link_container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        margin-top: 20px;
+    }
+    .sidebar_content .link_container .header_link {
+        color: inherit;
+    }
     .header_top {
         -webkit-box-shadow: 0px 3px 30px 1px rgb(0 0 0 / 12%);
         -moz-box-shadow: 0px 3px 30px 1px rgb(0 0 0 / 12%);

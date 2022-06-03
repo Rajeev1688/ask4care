@@ -37,3 +37,18 @@
     </div>
 
 </div>
+<div class="sidebar">
+    <div class="overlay_sidebar"></div>
+    <div class="sidebar_content">
+        <a href="./"><img class="header_logo" src="./assets/images/logo_color.png"/></a>
+        <div class="link_container">
+            <a class="header_link" href="./">Home</a>
+            <!-- <a class="header_link">Services</a> -->
+            <a class="header_link" href="./about.php">About us</a>
+            <a class="header_link" href="./locations.php">Locations</a>
+            <a class="header_link" href="./jobs.php">Jobs</a>
+            <a class="header_link" href="./blogs.php">Blogs</a>
+            <a class="header_link" href="./contact.php">Contact us</a>
+        </div>
+    </div>
+</div>
