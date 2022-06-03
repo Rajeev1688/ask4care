@@ -22,7 +22,7 @@
             </br></br>
             Our team comprises of experienced individuals having years of experience in catering to a diverse audience for their staffing and job-search needs. Go ahead and drop us a line; we promise you will not be disappointed!
             </p>
-            <a class="link_no_dec" href="./contact.php"><button class="btn-outline">Get in touch</button></a>
+            <a class="link_no_dec" href="./contact.php"><button class="btn-outline btn-blue">Get in touch</button></a>
         </div>
     </div>
     <div>
