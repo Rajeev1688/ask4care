@@ -1,6 +1,6 @@
 <div class="header">
     <div class="header_top">
-        <i class="fa-solid fa-bars sidebar_menu"></i>
+        <i id="hamburger-icon" class="fa-solid fa-bars sidebar_menu"></i>
         <a href="./"><img class="header_logo" src="./assets/images/logo_color.png"/></a>
         <div class="header_right">
             <div class="header_action">
