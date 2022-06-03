@@ -8,12 +8,12 @@
 
 <body class="">
     <?php include("./src/components/header.php");?>
-    <div class="page_banner location_details_banner">
+    <div class="page_banner">
         <div class="page_banner_content">
             <h1 class="section_heading">Nursing</h1>
+            <p>Helping candidates find their perfect fit for nursing jobs.</p>
         </div>
-        <div class="banner_overlay"></div>
-        <img style="object-position: top;" src="./assets/images/nursing_banner.jpg"/>
+        <img src="./assets/images/services_details_banner.png"/>
     </div>
     <div class="job_details_cont">
         <div class="job_details_left">
