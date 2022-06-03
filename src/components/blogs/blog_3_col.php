@@ -19,7 +19,7 @@
             </div>
         </div>
 
-        <div>
+        <div class="other_blogs_list">
             <h2 class="blog_section_head">Other blogs you may like</h2>
             <div class="other_blog_list">
                 <?php

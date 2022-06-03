@@ -9,7 +9,7 @@
     <?php include("./src/components/header.php");?>
     <div class="blog_top_row">
         <?php include("./src/components/blogs/blog_details_component.php");?>
-        <div>
+        <div class="blog_details_top_right">
             <h2 class="blog_section_head">Trending blogs</h2>
             <div class="blog_right_list">
                 <?php

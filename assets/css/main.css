@@ -1023,7 +1023,7 @@ h2 {
     left: 20px;
     color: white;
     z-index: 3;
-    width: max-content;
+    width: auto;
 }
 .blog_main .blog_main_content h2 {
     color: white !important;
@@ -1040,6 +1040,10 @@ h2 {
     font-family: "Inter";
     margin-top: 8px;
     margin-bottom: 4px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 .blog_main span {
     margin-bottom: 8px;
@@ -1289,6 +1293,11 @@ h2 {
     :root {
         --common-padding: 20px;
     }
+    .header_top {
+        -webkit-box-shadow: 0px 3px 30px 1px rgb(0 0 0 / 12%);
+        -moz-box-shadow: 0px 3px 30px 1px rgb(0 0 0 / 12%);
+        box-shadow: 0px 3px 30px 1px rgb(0 0 0 / 12%);
+    }
     .header_top .header_right {
         display: none;
     }
@@ -1372,6 +1381,7 @@ h2 {
     }
     .section_heading {
         display: block;
+        line-height: 34px;
         font-size: 28px;
         text-align: center;
     }
@@ -1397,7 +1407,7 @@ h2 {
         margin: 40px 30px;
     }
     .blog_section {
-        margin-top: 80px;
+        margin-top: 70px;
     }
     .blog_layout {
         grid-template-columns: 1fr;
@@ -1479,5 +1489,140 @@ h2 {
     }
     .blog_layout .blog_big_img {
         height: auto;
+    }
+    .diff_list {
+        display: grid;
+        row-gap: 30px;
+        margin-top: 30px;
+        grid-template-columns: 1fr;
+    }
+    .diff img {
+        height: 210px;
+    }
+    .about_content {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-right: var(--common-padding);
+    }
+    .about_content_right {
+        padding-left: var(--common-padding);
+    }
+    .about_content p {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .about_content_right .link_no_dec {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    .locations_page_list {
+        padding: 30px var(--common-padding);
+        margin-bottom: 20px;
+    }
+    .location_details_banner img {
+        height: 220px;
+    }
+    .job_promo {
+        padding: 30px var(--common-padding);
+        display: flex;
+        flex-direction: column-reverse;
+        padding-bottom: 0px;
+    }
+    .job_promo .section_heading {
+        line-height: 35px;
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+    .job_promo p {
+        text-align: center;
+    }
+    .job_promo .link_no_dec {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .job_listing_section {
+        padding: 20px var(--common-padding);
+    }
+    .jobs_hor_list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 26px;
+    }
+    .jobs_hor_list .job_card {
+        margin: 0px;
+    }
+    .blog_top_row {
+        display: flex;
+        margin: 20px var(--common-padding);
+    }
+    .blog_right_list {
+        display: none;
+    }
+    .blog_main img {
+        height: 240px;
+        object-fit: cover;
+    }
+    .blog_3_col {
+        display: flex;
+        flex-direction: column;
+        margin: 20px var(--common-padding);
+    }
+    .blog_3_col .blog_big img {
+        height: 200px;
+    }
+    .blog_big_img {
+        margin-bottom: 0px;
+        height: auto;
+    }
+    .blog_3_col .blog_big {
+        border-bottom: none;
+        padding-bottom: 0px;
+    }
+    .blog_3_col .other_blogs_list {
+        display: none;
+    }
+    .blog_details_page .blog_top_row {
+        display: flex;
+    }
+    .blog_details_page .blog_top_row .blog_details_top_right {
+        display: none;
+    }
+    .blog_details_section img {
+        height: 230px;
+    }
+    .blog_details_section h2 {
+        margin-top: 8px;
+        line-height: 34px;
+    }
+    .contact_content{
+        padding: 20px var(--common-padding);
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+        align-items: center;
+    }
+    .map iframe {
+        height: 210px;
+        margin-top: 10px;
+    }
+    .job_details_cont {
+        padding: 20px var(--common-padding);
+        display: flex;
+        flex-direction: column;
+    }
+    .job_details_left {
+        margin-bottom: 20px;
+    }
+    .share_icons {
+        margin-top: 16px;
+    }
+    .job_details_right h1 {
+        text-align: center;
+    }
+    .job_details_cont .job_details_right {
+        display: none;
     }
 }

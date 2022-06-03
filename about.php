@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <title>Ask4Care</title>
     <?php include("./src/components/common_imports.php");?> 
 </head>
 
@@ -16,7 +17,7 @@
     </div>
     <div class="about_content">
         <img src="./assets/images/about_left_img.png"/>
-        <div>
+        <div class="about_content_right">
             <h2 class="section_heading"><span class="section_heading_red">Know us</span> better</h2>
             <p>At ASK 4 Care USA your satisfaction is a measure of our success. Our founder brings 23 years of extensive experience in the healthcare industry and understands the need to provide quality care with a personal touch. We strive to be compliant, customer-oriented, and compassionate. We strive to deliver an outstanding experience to assisted and supportive living facilities, nursing homes, rehab facilities, doctors offices, hospitals and medical agencies of all types.
             </br></br>
@@ -28,7 +29,7 @@
     <div>
     <div class="locations">
         <h2 class="section_heading">What makes us<span class="section_heading_red">different<span></h2>
-        <p>Ask4Care is unlike any other medical staffing agency you have come across.<br/>Our values and service quality is what sets us apart from everybody else.<p>
+        <p>Ask4Care is unlike any other medical staffing agency you have come across.<br/>Our values and service quality is what sets us apart from everybody else.</p>
         <div class="diff_list">
             <div class="diff">
                 <img src="./assets/images/different_1.png"/>
