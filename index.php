@@ -136,7 +136,7 @@
     <div class="services_new">
         <div>
             <h1 class="section_heading">Staffing services for all<br/>medical needs</h1>
-            <p class="services_subhead">Healthcare services delivered by experienced medical personnel to cater to <br/>all yourhealthcare staffing and homecare service needs.</p>
+            <p class="services_subhead">Healthcare services delivered by experienced medical personnel to cater to <br/>all your healthcare staffing and homecare service needs.</p>
             <div class="service_new_list">
                 <a class="link_no_dec" href="./service-details.php"><div class="service_tab">Licensed Practical Nurse</div></a>
                 <a class="link_no_dec" href="./service-details.php"><div class="service_tab">Registered Nurse</div></a>
