@@ -15,7 +15,7 @@
         <img src="./assets/images/about_img.png"/>
     </div>
     <div class="about_content">
-        <img src="./assets/images/about_Left_img.png"/>
+        <img src="./assets/images/about_left_img.png"/>
         <div>
             <h2 class="section_heading"><span class="section_heading_red">Know us</span> better</h2>
             <p>At ASK 4 Care USA your satisfaction is a measure of our success. Our founder brings 23 years of extensive experience in the healthcare industry and understands the need to provide quality care with a personal touch. We strive to be compliant, customer-oriented, and compassionate. We strive to deliver an outstanding experience to assisted and supportive living facilities, nursing homes, rehab facilities, doctors offices, hospitals and medical agencies of all types.
