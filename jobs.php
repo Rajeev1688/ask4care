@@ -20,11 +20,11 @@
         <img src="./assets/images/jobs_promo_img.png"/>
         <div>
             <h1 class="section_heading">Helping candidates break into<br/>the perfect roles</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            <p>Over the years, we have helped numerous candidates land with their dream job roles. Our team has helped them with their search and got them placed in renowned medical institutions in Illinois. Job seekers keep coming back to us for the exceptional experience they get in their placement journey.
                 <br/><br/>
                 Need help with your job search? We're here for you!
             </p>
-            <a class="link_no_dec btn-outline" href="./contact.php">Contact Us</a>
+            <a class="link_no_dec" href="./contact.php"><button class="btn-outline btn-blue">Get in touch</button></a>
         </div>
     </div>
 
