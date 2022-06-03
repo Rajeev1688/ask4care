@@ -9,6 +9,7 @@
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy is simply dummy text of...</p>
         <div class="button_row">
             <button class="btn-outline">Apply now</button>
-            <a class="read_more_btn" href="./job-details.php">Know more<i class="fa-solid fa-arrow-right-long"></i></a>
+            <a class="link_no_dec" href="./job-details.php"><button class="btn-outline btn-blue">Know more</button></a> 
+            <!-- <a class="read_more_btn" href="./job-details.php">Know more<i class="fa-solid fa-arrow-right-long"></i></a> -->
         </div>
     </div>
