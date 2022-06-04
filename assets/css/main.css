@@ -1353,7 +1353,7 @@ h2 {
         position: fixed;
         padding: 40px;
         top: 0px;
-        width: 48%;
+        width: 240px;
         transform: translateX(-100%);
         transition: all 0.7s ease;
     }
