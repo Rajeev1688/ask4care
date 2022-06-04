@@ -1291,6 +1291,27 @@ h2 {
     margin-top: 0px;
 }
 
+/* Upload Resume */
+.upload_form {
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 35px 2px rgb(0 0 0 / 10%);
+}
+.upload_form form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+}
+.upload_form .input_flex {
+    display: flex;
+    column-gap: 16px;
+}
+.upload_form .section_heading {
+    line-height: normal;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
 /* Responsive */
 @media (max-width: 500px) {
     :root {
@@ -1699,5 +1720,17 @@ h2 {
         width: 100%;
         margin-right: 0px;
         margin-bottom: 20px;
+    }
+    .upload_video_page .job_promo img {
+        display: none;
+    }
+    .upload_form {
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    .upload_form .input_flex {
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
     }
 }

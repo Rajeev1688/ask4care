@@ -32,7 +32,7 @@
         </div>
         <div class="link_container">
             <!-- <a class="header_link">Find jobs</a> -->
-            <a class="header_link">Upload resume</a>
+            <a class="header_link" href="./upload-resume.php">Upload resume</a>
         </div>
     </div>
 
@@ -49,6 +49,7 @@
             <a class="header_link" href="./jobs.php">Jobs</a>
             <a class="header_link" href="./blogs.php">Blogs</a>
             <a class="header_link" href="./contact.php">Contact us</a>
+            <a class="header_link" href="./upload-resume.php">Upload resume</a>
         </div>
     </div>
 </div>
