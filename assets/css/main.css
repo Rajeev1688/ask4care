@@ -16,6 +16,9 @@ body {
 }
 
 /* Header */
+.sidebar {
+    display: none;
+}
 .header_top {
     display: flex;
     justify-content: space-between;
