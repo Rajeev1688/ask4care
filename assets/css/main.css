@@ -1297,6 +1297,7 @@ h2 {
         --common-padding: 20px;
     }
     .sidebar {
+        display: block;
         height: 100vh;
         position: fixed;
         top: 0;
