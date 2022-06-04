@@ -1689,4 +1689,15 @@ h2 {
         left: 22px;
         top: 26%;
     }
+    .location_search {
+        padding: 22px 16px;
+    }
+    .location_search form {
+        width: 100%;
+    }
+    .location_search select {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
 }
