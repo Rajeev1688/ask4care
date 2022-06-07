@@ -914,7 +914,7 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 140px;
-    margin-top: 50px;
+    margin: 50px auto;
 }
 .diff img {
     height: 310px;
@@ -1566,7 +1566,7 @@ h2 {
     .diff_list {
         display: grid;
         row-gap: 30px;
-        margin-top: 30px;
+        margin: 30px auto;
         grid-template-columns: 1fr;
     }
     .diff img {

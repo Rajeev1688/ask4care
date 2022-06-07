@@ -50,24 +50,24 @@
     <!-- Why us -->
     <div class="why_us">
         <div class="why_us_left">
-            <h1 class="section_heading">Why<span class="section_heading_red">us?</span></h1>
-            <p class="mt_30">Ask4Care is a leading agency in medical staffing and homecare services specializing in helping hospitals, nursing homes, and other medical institutions hire screen and verified talent with relevant industry experience. Our value proposition and quality of service set us apart from the crowd and leave both job-seekers and employers with a satisfactory experience.</p>
+            <h1 class="section_heading" data-aos="fade-up">Why<span class="section_heading_red">us?</span></h1>
+            <p class="mt_30" data-aos="fade-up" data-aos-delay="200">Ask4Care is a leading agency in medical staffing and homecare services specializing in helping hospitals, nursing homes, and other medical institutions hire screen and verified talent with relevant industry experience. Our value proposition and quality of service set us apart from the crowd and leave both job-seekers and employers with a satisfactory experience.</p>
             <div class="why_list">
-                <div class="why_card">
+                <div class="why_card" data-aos="fade-up" data-aos-delay="300">
                     <div class="why_list_top">
                         <i class="fa-solid fa-hand-holding-heart" style="color: #3E4E9B"></i>
                         <span>Caring with a smile</span>
                     </div>
                     <p>Join a family of institutions who trust Ask4Care to be their only medical staffing and homecare solutions provider.</p>
                 </div>
-                <div class="why_card">
+                <div class="why_card" data-aos="fade-up" data-aos-delay="400">
                     <div class="why_list_top">
                         <i class="fa-solid fa-graduation-cap" style="color: #FFD600"></i>
                         <span>Qualified staff</span>
                     </div>
                     <p>Our team helps you to screen and hire the right set of candidates with relevant industry experience.</p>
                 </div>
-                <div class="why_card">
+                <div class="why_card" data-aos="fade-up" data-aos-delay="500">
                     <div class="why_list_top">  
                         <i class="fa-solid fa-comment-dots" style="color: #00EDA6"></i>
                         <span>Passionate about care</span>
@@ -133,17 +133,17 @@
         </div>
     </div>
 
-    <div class="services_new">
+    <div class="services_new" data-aos="fade-up">
         <div>
             <h1 class="section_heading">Staffing services for all<br/>medical needs</h1>
             <p class="services_subhead">Healthcare services delivered by experienced medical personnel to cater to <br/>all your healthcare staffing and homecare service needs.</p>
             <div class="service_new_list">
-                <a class="link_no_dec" href="./service-details.php"><div class="service_tab">Licensed Practical Nurse</div></a>
-                <a class="link_no_dec" href="./service-details.php"><div class="service_tab">Registered Nurse</div></a>
-                <a class="link_no_dec" href="./service-details.php"><div class="service_tab">Direct Care Worker</div></a>
-                <a class="link_no_dec" href="./service-details.php"><div class="service_tab">Speech Therapist</div></a>
-                <a class="link_no_dec" href="./service-details.php"><div class="service_tab">Occupational Therapist</div></a>
-                <a class="link_no_dec" href="./service-details.php"><div class="service_tab">CNA</div></a>
+                <a class="link_no_dec" href="./service-details.php"><div class="service_tab" data-aos="fade-in" data-aos-delay="200">Licensed Practical Nurse</div></a>
+                <a class="link_no_dec" href="./service-details.php"><div class="service_tab" data-aos="fade-in" data-aos-delay="400">Registered Nurse</div></a>
+                <a class="link_no_dec" href="./service-details.php"><div class="service_tab" data-aos="fade-in" data-aos-delay="600">Direct Care Worker</div></a>
+                <a class="link_no_dec" href="./service-details.php"><div class="service_tab" data-aos="fade-in" data-aos-delay="800">Speech Therapist</div></a>
+                <a class="link_no_dec" href="./service-details.php"><div class="service_tab" data-aos="fade-in" data-aos-delay="1000">Occupational Therapist</div></a>
+                <a class="link_no_dec" href="./service-details.php"><div class="service_tab" data-aos="fade-in" data-aos-delay="1200">CNA</div></a>
             </div>
             <p>Healthcare services delivered by experienced medical personnel to cater to all your healthcare staffing needs. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
             <a class="header_link contact_btn" href="./contact.php">Get in touch<i class="fa-solid fa-arrow-right-long"></i></a>
@@ -167,10 +167,8 @@
 
 </body>
 
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<?php include("./src/components/common_js.php");?>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script type="text/javascript" src="./assets/js/sidebar.js"></script>
 <script>
     $(document).ready(function(){
         $('.slick_banner').slick({

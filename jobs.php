@@ -19,12 +19,12 @@
     <div class="job_promo">
         <img src="./assets/images/jobs_promo_img.png"/>
         <div>
-            <h1 class="section_heading">Helping candidates break into<br/>the perfect roles</h1>
-            <p>Over the years, we have helped numerous candidates land with their dream job roles. Our team has helped them with their search and got them placed in renowned medical institutions in Illinois. Job seekers keep coming back to us for the exceptional experience they get in their placement journey.
+            <h1 class="section_heading" data-aos="fade-up">Helping candidates break into<br/>the perfect roles</h1>
+            <p data-aos="fade-up" data-aos-delay="200">Over the years, we have helped numerous candidates land with their dream job roles. Our team has helped them with their search and got them placed in renowned medical institutions in Illinois. Job seekers keep coming back to us for the exceptional experience they get in their placement journey.
                 <br/><br/>
                 Need help with your job search? We're here for you!
             </p>
-            <a class="link_no_dec" href="./contact.php"><button class="btn-outline btn-blue">Get in touch</button></a>
+            <a class="link_no_dec" href="./contact.php" data-aos="fade-up" data-aos-delay="400"><button class="btn-outline btn-blue">Get in touch</button></a>
         </div>
     </div>
 
@@ -36,8 +36,6 @@
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="./assets/js/sidebar.js"></script>
+<?php include("./src/components/common_js.php");?>
 
 </html>

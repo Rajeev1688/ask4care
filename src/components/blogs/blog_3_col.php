@@ -1,5 +1,5 @@
     <div class="blog_3_col">
-        <div>
+        <div data-aos="fade-in">
             <h2 class="blog_section_head">Trending blogs</h2>
             <div>
                 <?php include("./src/components/blogs/blog_big_card.php");?>
@@ -9,7 +9,7 @@
             </div>
         </div>
 
-        <div>
+        <div data-aos="fade-in" data-aos-delay="300">
         <h2 class="blog_section_head">Most viewed blogs</h2>
             <div>
                 <?php include("./src/components/blogs/blog_big_card.php");?>
@@ -19,7 +19,7 @@
             </div>
         </div>
 
-        <div class="other_blogs_list">
+        <div class="other_blogs_list" data-aos="fade-in" data-aos-delay="600">
             <h2 class="blog_section_head">Other blogs you may like</h2>
             <div class="other_blog_list">
                 <?php

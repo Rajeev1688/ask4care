@@ -1,4 +1,4 @@
-<div class="locations">
+<div class="locations" data-aos="fade-up">
     <h2 class="section_heading">Where are we<span class="section_heading_red">located<span></h2>
     <p>We have spread our wings to 15 locations across the top locations of USA.<br/>Click on the locations below to take the first step towards a better career and landing your dream role.<p>
     <div class="locations_list">
@@ -14,7 +14,7 @@
                 include("./src/components/locations/location_card.php");
             }
         ?>    
-        <div class="location_search">
+        <div class="location_search" data-aos="fade-in" data-aos-delay="400">
             <div>Find your dream job</div>
             <form action="./index.php">
                 <select name="jobs" id="jobs">

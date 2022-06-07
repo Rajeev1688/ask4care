@@ -1,4 +1,4 @@
-<div class="blog_section">
+<div class="blog_section" data-aos="fade-up">
     <h2 class="section_heading text_center">Recent<span class="section_heading_red">blog posts</span></h2>
     <div class="blog_layout">
         <?php include("./src/components/blogs/blog_big_card.php"); ?>

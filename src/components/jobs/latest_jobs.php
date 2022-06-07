@@ -1,4 +1,4 @@
-    <div class="job_listing_section">
+    <div class="job_listing_section" data-aos="fade-up">
         <div style="text-align: center;">
             <h1 class="section_heading">Browse the latest<span class="section_heading_red">jobs</span></h1>
             <p>Numerous medical institutions rely on us for their staffing needs.<br/>Our team sources and constantly updates the available positions in the top medical institutions across USA.</p>
