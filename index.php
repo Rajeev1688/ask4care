@@ -51,7 +51,7 @@
     <div class="why_us">
         <div class="why_us_left">
             <h1 class="section_heading" data-aos="fade-up">Why<span class="section_heading_red">us?</span></h1>
-            <p class="mt_30" data-aos="fade-up" data-aos-delay="200">Ask4Care is a leading agency in medical staffing and homecare services specializing in helping hospitals, nursing homes, and other medical institutions hire screen and verified talent with relevant industry experience. Our value proposition and quality of service set us apart from the crowd and leave both job-seekers and employers with a satisfactory experience.</p>
+            <p class="mt_30" data-aos="fade-up" data-aos-delay="200">Ask4Care is a leading agency in the medical staffing and homecare services fields, specializing in helping hospitals, nursing homes, skilled nursing facilities, rehab centers and other medical institutions. We help with screening, hiring and placing verified talent with relevant industry experience. Our value proposition and quality of service set us apart from the crowd and leaves both job-seekers and employers with an exemplary experience.</p>
             <div class="why_list">
                 <div class="why_card" data-aos="fade-up" data-aos-delay="300">
                     <div class="why_list_top">
@@ -65,7 +65,7 @@
                         <i class="fa-solid fa-graduation-cap" style="color: #FFD600"></i>
                         <span>Qualified staff</span>
                     </div>
-                    <p>Our team helps you to screen and hire the right set of candidates with relevant industry experience.</p>
+                    <p>Our team helps you in screening and hiring the right set of candidates with relevant industry experience.</p>
                 </div>
                 <div class="why_card" data-aos="fade-up" data-aos-delay="500">
                     <div class="why_list_top">  
@@ -82,61 +82,10 @@
     </div>
 
     <!-- Our services -->
-    <div class="services">
-        <div class="services_header">
-            <h1 class="section_heading">Our<span class="section_heading_red">services</span></h1>
-            <p>Healthcare services delivered by experienced medical personnel<br/>to cater to all your healthcare staffing needs.</p>
-        </div>
-        <div class="service_list">
-            <div class="service_card">
-                <img src="./assets/images/service_1.png"/>
-                <h3>Licensed Practical Nurse</h3>
-                <p>Find nurses experienced in providing primary care to patients and assistance to RNs and doctors. They are experienced in taking vitals, administering</p>
-                <button class="btn-outline">Know more</button>
-            </div>
-            <div class="service_card">
-                <img src="./assets/images/rn_service.jpg"/>
-                <h3>Registered Nurse</h3>
-                <p>RNs provide hands-on care to the patients, and are responsible for the daily tasks around patient care and administration. They cover both inpatients and</p>
-                <button class="btn-outline">Know more</button>
-            </div>
-            <div class="service_card">
-                <img src="./assets/images/dcw_service.jpg"/>
-                <h3>Direct Care Worker</h3>
-                <p>To avail dedicated medical assistance for the patients who require help in performing daily activities, Direct Care Workers are the perfect choice. They are</p>
-                <button class="btn-outline">Know more</button>
-            </div>
-            <div class="service_card">
-                <img src="./assets/images/pt_service.jpg"/>
-                <h3>Physical Therapist</h3>
-                <p>They specialize in treating human body disorders which may be related to a disability, an injury, or other health conditions. They are one of the allied health</p>
-                <button class="btn-outline">Know more</button>
-            </div>
-            <div class="service_card">
-                <img src="./assets/images/pt_service.jpg"/>
-                <h3>Occupational Therapist</h3>
-                <p>They specialize in treating human body disorders which may be related to a disability, an injury, or other health conditions. They are one of the allied health</p>
-                <button class="btn-outline">Know more</button>
-            </div>
-            <div class="service_card">
-                <img src="./assets/images/pt_service.jpg"/>
-                <h3>Speech Therapist</h3>
-                <p>They specialize in treating human body disorders which may be related to a disability, an injury, or other health conditions. They are one of the allied health</p>
-                <button class="btn-outline">Know more</button>
-            </div>
-            <div class="service_card">
-                <img src="./assets/images/pt_service.jpg"/>
-                <h3>CNA</h3>
-                <p>They specialize in treating human body disorders which may be related to a disability, an injury, or other health conditions. They are one of the allied health</p>
-                <button class="btn-outline">Know more</button>
-            </div>
-        </div>
-    </div>
-
     <div class="services_new" data-aos="fade-up">
         <div>
             <h1 class="section_heading">Staffing services for all<br/>medical needs</h1>
-            <p class="services_subhead">Healthcare services delivered by experienced medical personnel to cater to <br/>all your healthcare staffing and homecare service needs.</p>
+            <p class="services_subhead">Healthcare services delivered by experienced medical personnel to cater to all your healthcare staffing and homecare service needs.</p>
             <div class="service_new_list">
                 <a class="link_no_dec" href="./service-details.php"><div class="service_tab" data-aos="fade-in" data-aos-delay="200">Licensed Practical Nurse</div></a>
                 <a class="link_no_dec" href="./service-details.php"><div class="service_tab" data-aos="fade-in" data-aos-delay="400">Registered Nurse</div></a>

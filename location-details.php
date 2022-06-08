@@ -19,7 +19,7 @@
 
     <div class="locations_list locations_page_list">
         <?php
-            for ($x = 0; $x <= 11; $x++) {
+            for ($x = 0; $x <= 1; $x++) {
                 include("./src/components/locations/location_card.php");
             }
         ?>
