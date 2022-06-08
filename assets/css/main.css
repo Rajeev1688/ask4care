@@ -1733,4 +1733,7 @@ h2 {
         flex-direction: column;
         row-gap: 16px;
     }
+    .location_card img {
+        height: 180px;
+    }
 }
