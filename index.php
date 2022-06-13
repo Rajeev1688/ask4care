@@ -94,7 +94,7 @@
                 <a class="link_no_dec" href="./service-details.php"><div class="service_tab" data-aos="fade-in" data-aos-delay="1000">Occupational Therapist</div></a>
                 <a class="link_no_dec" href="./service-details.php"><div class="service_tab" data-aos="fade-in" data-aos-delay="1200">CNA</div></a>
             </div>
-            <p>Healthcare services delivered by experienced medical personnel to cater to all your healthcare staffing needs. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <p>We strive to deliver an outstanding experience to assisted and supportive living facilities, nursing homes, rehab facilities, doctors offices, hospitals and medical agencies of all types.</p>
             <a class="header_link contact_btn" href="./contact.php">Get in touch<i class="fa-solid fa-arrow-right-long"></i></a>
         </div>
         <div>
@@ -134,34 +134,6 @@
 </script>
 <script>
     $(document).ready(function(){
-        $('.service_list').slick({
-            arrows: false,
-            slidesToShow: 4,
-            dots: true,
-            slidesToScroll: 1,
-            responsive: [
-                {
-                    breakpoint: 600,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 2,
-                        dots: true
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        dots: true
-                    }
-                }
-            ]
-        });
-    });
-</script>
-<script>
-    $(document).ready(function(){
         $('.jobs_list').slick({
             arrows: false,
             slidesToShow: 4,
@@ -169,7 +141,7 @@
             dots: true,
             responsive: [
                 {
-                    breakpoint: 600,
+                    breakpoint: 1100,
                     settings: {
                         slidesToShow: 2,
                         slidesToScroll: 2,

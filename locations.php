@@ -43,7 +43,7 @@
             dots: true,
             responsive: [
                 {
-                    breakpoint: 600,
+                    breakpoint: 1000,
                     settings: {
                         slidesToShow: 2,
                         slidesToScroll: 2,

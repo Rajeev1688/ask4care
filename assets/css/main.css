@@ -23,13 +23,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px var(--common-padding);
+    padding: 8px var(--common-padding);
 }
 .header_top .sidebar_menu {
     display: none;
 }
 .header_logo {
-    height: 38px;
+    height: 50px;
 }
 .header_action {
     display: flex;
@@ -125,7 +125,7 @@ h2 {
 }
 .section_heading_red {
     color: var(--red);
-    text-decoration: underline;
+    /* text-decoration: underline; */
     margin-left: 8px;
 }
 .page_banner {
@@ -680,7 +680,13 @@ h2 {
     margin-top: 60px;
     margin-right: 14px;
     border-radius: 10px;
-    box-shadow: 0px 4px 74px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 74px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s;
+}
+.job_card:hover {
+    box-shadow: 0px 4px 74px rgb(0 0 0 / 20%);
+    transform: translateY(-4px);
+    transition: all 0.3s;
 }
 .job_card_header {
     display: flex;
@@ -837,12 +843,17 @@ h2 {
     color: #919191;
 }
 .footer .copyright {
+    display: flex;
+    justify-content: space-between;
     padding: 20px 0px;
     padding-bottom: 0px;
     border-top: 1px solid #dcdcdc;
     color: var(--black_2);
     margin-top: 30px;
     font-size: 14px;
+}
+.footer .copyright i {
+    margin: auto 4px;
 }
 .subscription {
     background: linear-gradient(90deg, #295EDD 0%, #8143E2 100%);
@@ -918,6 +929,11 @@ h2 {
 }
 .diff img {
     height: 310px;
+    transition: all 0.3s;
+}
+.diff:hover img {
+    transform: translateY(-14px);
+    transition: all 0.3s;
 }
 .diff h3 {
     font-weight: 600;
@@ -940,10 +956,13 @@ h2 {
     position: relative;
     margin-top: 50px;
 }
+.contact_content .share_icons {
+    margin-top: 30px;
+}
 .contact_content h2 {
     text-transform: uppercase;
 }
-.contact_content i {
+.contact_content .icon {
     margin-right: 10px;
     margin-top: 5px;
     color: #3a44ff;
@@ -1003,7 +1022,7 @@ h2 {
     outline: none;
     border: none;
     height: 400px;
-    margin-top: -140px;
+    margin-top: -110px;
 }
 .about_page .subscription {
     margin-top: -6px;
@@ -1312,8 +1331,8 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* Responsive */
-@media (max-width: 500px) {
+/* Responsive Mobile & Tablet */
+@media (max-width: 900px) {
     :root {
         --common-padding: 20px;
     }
@@ -1347,6 +1366,12 @@ h2 {
         transition: all 0.5s ease;
         background: #000000a1;
     }
+    .close_sidebar_button {
+        position: absolute;
+        right: 30px;
+        font-size: 23px;
+        color: var(--black_2);
+    }
     .sidebar_content {
         background-color: white;
         height: 100vh;
@@ -1370,6 +1395,8 @@ h2 {
         -webkit-box-shadow: 0px 3px 30px 1px rgb(0 0 0 / 12%);
         -moz-box-shadow: 0px 3px 30px 1px rgb(0 0 0 / 12%);
         box-shadow: 0px 3px 30px 1px rgb(0 0 0 / 12%);
+        display: flex;
+        justify-content: space-between;
     }
     .header_top .header_right {
         display: none;
@@ -1538,6 +1565,7 @@ h2 {
     .services_new img {
         display: flex;
         margin: auto;
+        float: inherit;
     }
     .services_new .services_subhead {
         display: none;
@@ -1580,6 +1608,7 @@ h2 {
     }
     .about_content_right {
         padding-left: var(--common-padding);
+        text-align: center;
     }
     .about_content p {
         margin-top: 30px;
@@ -1735,5 +1764,50 @@ h2 {
     }
     .location_card img {
         height: 180px;
+    }
+}
+
+/* Responsive Tablet */
+@media (min-width: 760px) and (max-width: 1000px) {
+    .services_new img {
+        width: 40%;
+    }
+    .blog_big img {
+        height: 340px;
+    }
+    .subscription {
+        display: flex;
+    }
+    .about_content img {
+        display: none;
+    }
+    .jobs_hor_list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 26px;
+    }
+    .blog_top_row .blog_main {
+        width: 100%;
+    }
+    .blog_main img {
+        height: 340px;
+    }
+    .blog_3_col .blog_big img {
+        height: 340px;
+    }
+    .blog_details_section img {
+        height: 340px;
+    }
+    .blog_big img {
+        border-radius: 16px;
+    }
+    .contact_form {
+        width: 54%;
+    }
+    .map iframe {
+        height: 310px;
+    }
+    .footer_layout {
+        grid-template-columns: 0.3fr 1fr 1fr;
     }
 }

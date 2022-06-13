@@ -39,6 +39,7 @@
 <div class="sidebar">
     <div class="overlay_sidebar"></div>
     <div class="sidebar_content">
+        <i class="fa-regular fa-circle-xmark close_sidebar_button"></i>
         <a href="./"><img class="header_logo" src="./assets/images/logo_color.png"/></a>
         <div class="link_container">
             <a class="header_link" href="./">Home</a>

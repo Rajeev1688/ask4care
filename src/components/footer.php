@@ -41,5 +41,8 @@
                 </div>
             </div>
         </div>
-        <div class="copyright">Copyright 2021-2022 by Ask4Care. All Rights Reserved.<div>
+        <div class="copyright">
+            <span>Copyright 2021-2022 by Ask4Care. All Rights Reserved.</span>
+            <span>Made with <i class="fa-solid fa-heart" style="color: #f55142"></i> <a class="link_no_dec" href="https://www.lotusindiatech.com/">by Lotus India Technologies</a></span>
+        </div>
     </div>
