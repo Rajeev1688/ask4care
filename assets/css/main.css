@@ -21,7 +21,7 @@ body {
 }
 .header_top {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 8px var(--common-padding);
 }
@@ -29,14 +29,14 @@ body {
     display: none;
 }
 .header_logo {
-    height: 50px;
+    height: 60px;
 }
 .header_action {
     display: flex;
     column-gap: 10px;
 }
 .header_action img {
-    height: 40px;
+    height: 45px;
 }
 .header_action span .top_text {
     font-size: 13px;
@@ -44,6 +44,7 @@ body {
 .header_action span .bottom_text {
     font-size: 13px;
     font-weight: 700;
+    font-family: "Inter" !important;
     cursor: pointer;
 }
 .header_right {

@@ -2,22 +2,26 @@
     <div class="header_top">
         <i id="hamburger-icon" class="fa-solid fa-bars sidebar_menu"></i>
         <a href="./"><img class="header_logo" data-aos="fade-in" src="./assets/images/logo_color.png"/></a>
-        <!-- <div class="header_right" data-aos="fade-in" data-aos-delay="200" >
-            <div class="header_action">
-                <img class="action_logo" src="./assets/images/brochure_logo.png"/>
-                <span>
-                    <div class="top_text">Company brochure</div>
-                    <div class="bottom_text">Download now</div>
-                </span>
-            </div>
-            <div class="header_action">
-                <img class="action_logo" src="./assets/images/call_logo.png"/>
-                <span>
-                    <div class="top_text">24x7 service available</div>
-                    <div class="bottom_text">416-565-9458</div>
-                </span>
-            </div>
-        </div> -->
+        <div class="header_right" data-aos="fade-in" data-aos-delay="200">
+            <a class="link_no_dec" href="./contact.php">
+                <div class="header_action">
+                    <img class="action_logo" src="./assets/images/brochure_logo.png"/>
+                    <span>
+                        <div class="top_text">Request an appointment</div>
+                        <div class="bottom_text">Book now</div>
+                    </span>
+                </div>
+            </a>
+            <a href="tel:+496170961709" class="link_no_dec">
+                <div class="header_action">
+                    <img class="action_logo" src="./assets/images/call_logo.png"/>
+                    <span>
+                        <div class="top_text">Need support?</div>
+                        <div class="bottom_text">416-565-9458</div>
+                    </span>
+                </div>
+            </a>
+        </div>
     </div>
 
     <div class="header_bottom">
