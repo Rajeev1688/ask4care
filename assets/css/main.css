@@ -1812,6 +1812,24 @@ h2 {
     .location_card img {
         height: 180px;
     }
+    .intake_form {
+        width: auto;
+        padding: var(--common-padding);
+    }
+    .intake_form .input_grid {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .intake_form .input_grid_single {
+        margin-bottom: 20px;
+    }
+    .intake_form .disclaimer {
+        margin-top: 40px;
+    }
+    .intake_form button {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
 }
 
 /* Responsive Tablet */
