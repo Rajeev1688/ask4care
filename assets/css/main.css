@@ -1,7 +1,7 @@
 :root {
     --blue: #3E4E9B;
     --blue-light: #DCDFED;
-    --red: #E02F35;
+    --red: #b62126;
     --red_light: #FCEBEB;
     --black_1: #010101;
     --black_2: #575656;
@@ -13,6 +13,9 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 24px;
     margin: 0px;
+}
+h1, h2, h3 {
+    font-family: "Inter";
 }
 
 /* Header */
@@ -1330,6 +1333,49 @@ h2 {
     line-height: normal;
     font-size: 25px;
     margin-bottom: 20px;
+}
+
+/* Intake form */
+.intake_form {
+    width: 56%;
+    margin: 30px auto;
+}
+.intake_form .input_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    margin-bottom: 20px;
+}
+.intake_form .input_grid_single {
+    margin-bottom: 40px;
+}
+.intake_form label {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "Inter" !important;
+    color: var(--blue);
+}
+.intake_form input, .intake_form select, .intake_form textarea {
+    width: -webkit-fill-available;
+    padding: 12px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background: #edf0ff;
+    margin-top: 8px;
+    transition: all 0.3s;
+}
+.intake_form input:focus-visible, .intake_form select:focus-visible, .intake_form textarea:focus-visible {
+    outline: 1px solid var(--blue);
+    transition: all 0.3s;
+}
+.intake_form button {
+    margin: 30px auto;
+    font-size: 16px;
+}
+.intake_form .disclaimer {
+    margin-top: 60px;
 }
 
 /* Responsive Mobile & Tablet */
