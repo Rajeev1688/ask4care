@@ -38,8 +38,9 @@
         <div>
             <div class="banner_content">
                 <div class="content_inner">
-                    <h1>A reliable staffing partner</h1>
-                    <span class="banner_para">We work with healthcare institutions across the country and help them hire the best talent effortlessly, delivering a seamless staffing experience</span>
+                    <h1>A reliable healthcare partner</h1>
+                    <div class="banner_para">We provide some the best healthcare professionals to deliver quality care to the ones who need it</div>
+                    <a class="link_no_dec" href="./intake-form.php"><button type="submit" class="btn-outline btn-white">View intake form</button></a>
                 </div>
             </div>
             <div class="banner_overlay"></div>
@@ -86,15 +87,23 @@
         <div>
             <h1 class="section_heading">Staffing services for all<br/>medical needs</h1>
             <p class="services_subhead">Healthcare services delivered by experienced medical personnel to cater to all your healthcare staffing and homecare service needs.</p>
-            <div class="service_new_list">
-                <a class="link_no_dec" href="./service-details.php"><div class="service_tab" data-aos="fade-in" data-aos-delay="200">Licensed Practical Nurse</div></a>
-                <a class="link_no_dec" href="./service-details.php"><div class="service_tab" data-aos="fade-in" data-aos-delay="400">Registered Nurse</div></a>
-                <a class="link_no_dec" href="./service-details.php"><div class="service_tab" data-aos="fade-in" data-aos-delay="600">Direct Care Worker</div></a>
-                <a class="link_no_dec" href="./service-details.php"><div class="service_tab" data-aos="fade-in" data-aos-delay="800">Speech Therapist</div></a>
-                <a class="link_no_dec" href="./service-details.php"><div class="service_tab" data-aos="fade-in" data-aos-delay="1000">Occupational Therapist</div></a>
-                <a class="link_no_dec" href="./service-details.php"><div class="service_tab" data-aos="fade-in" data-aos-delay="1200">CNA</div></a>
+            <div>
+                <h3>Nursing</h3>
+                <div class="service_new_list">
+                    <a class="link_no_dec" href="./service-details.php"><div class="service_tab" data-aos="fade-in" data-aos-delay="200">Licensed Practical Nurse</div></a>
+                    <a class="link_no_dec" href="./service-details.php"><div class="service_tab" data-aos="fade-in" data-aos-delay="400">Registered Nurse</div></a>
+                    <a class="link_no_dec" href="./service-details.php"><div class="service_tab" data-aos="fade-in" data-aos-delay="1200">CNA</div></a>
+                </div>
             </div>
-            <p>We strive to deliver an outstanding experience to assisted and supportive living facilities, nursing homes, rehab facilities, doctors offices, hospitals and medical agencies of all types.</p>
+            <div class="services_row">
+                <h3>Therapist</h3>
+                <div class="service_new_list">
+                    <a class="link_no_dec" href="./service-details.php"><div class="service_tab" data-aos="fade-in" data-aos-delay="800">Speech Therapist</div></a>
+                    <a class="link_no_dec" href="./service-details.php"><div class="service_tab" data-aos="fade-in" data-aos-delay="1000">Occupational Therapist</div></a>
+                    <a class="link_no_dec" href="./service-details.php"><div class="service_tab" data-aos="fade-in" data-aos-delay="1200">Physical Therapist</div></a>
+                </div>
+            </div>
+            <!-- <p>We strive to deliver an outstanding experience to assisted and supportive living facilities, nursing homes, rehab facilities, doctors offices, hospitals and medical agencies of all types.</p> -->
             <a class="header_link contact_btn" href="./contact.php">Get in touch<i class="fa-solid fa-arrow-right-long"></i></a>
         </div>
         <div>

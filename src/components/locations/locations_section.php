@@ -1,6 +1,6 @@
 <div class="locations" data-aos="fade-up">
     <h2 class="section_heading">Where are we<span class="section_heading_red">located<span></h2>
-    <p>We have spread our wings to 15 locations across the top locations of USA.<br/>Click on the locations below to take the first step towards a better career and landing your dream role.<p>
+    <p>We have spread our wings to multiple locations across USA and are constantly growing.<br/>Click on the locations below to take the first step towards a better career and landing your dream role.<p>
     <!-- <div class="locations_list">
         <?php
             for ($x = 0; $x <= 3; $x++) {
@@ -41,10 +41,21 @@
     </div> -->
 
     <div class="locations_list">
-        <?php
-            for ($x = 0; $x <= 1; $x++) {
-                include("./src/components/locations/location_card.php");
-            }
-        ?>
+        <div class="location_card">
+            <span>Chicago</span>    
+            <img src="./assets/images/chicago.jpg" />
+            <div>
+                <h3>View Jobs</h3>
+            </div>
+            <a class="link_no_dec" href="./location-details.php"></a>
+        </div>
+
+        <div class="location_card">
+            <span>Coming Soon</span>    
+            <img src="./assets/images/location_1.png" />
+            <div>
+                <h3>Stay tuned</h3>
+            </div>
+        </div>
     </div>
 </div>

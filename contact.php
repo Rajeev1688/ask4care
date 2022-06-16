@@ -32,9 +32,30 @@
         <div class="contact_form">
             <h2>Contact Us</h2>
             <p>Please fill in the details below</p>
-            <input class="white_input" type="text" placeholder="Enter your name..."/>
-            <input class="white_input" type="email" placeholder="Enter your email..."/>
-            <textarea rows="4" class="white_input" placeholder="Enter your name..."></textarea>
+            <input class="white_input" type="text" placeholder="full name..."/>
+            <div class="input_grid">
+                <input class="white_input" type="email" placeholder="your email..."/>
+                <input class="white_input" type="email" placeholder="your phone number..."/>
+            </div>
+            <div class="input_grid">
+                <select class="white_input" name="interested" id="interested">
+                    <option value="" disabled selected>i'm interetsed in</option>
+                    <option value="self">care for self</option>
+                    <option value="patient">care for patient(s)</option>
+                    <option value="other">care for other</option>
+                    <option value="career">career oppurtunities</option>
+                </select>
+                <select class="white_input" name="hear" id="hear">
+                    <option value="How did you hear about us?">how did you hear about us?</option>
+                    <option value="Newspaper/Magazine">newspaper/magazine</option>
+                    <option value="Web Search">web search</option>
+                    <option value="Sign/Office Location">sign/office location</option
+                    ><option value="Healthcare Professional">healthcare professional</option>
+                    <option value="Family/Friend">family/friend</option>
+                    <option value="Other">other</option>
+                </select>
+            </div>
+            <textarea rows="4" class="white_input" placeholder="message..."></textarea>
             <div>
                 <input class="btn-outline btn-white" type="submit" value="Submit">
             </div>
